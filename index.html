@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <!-- css -->
+     <link rel="stylesheet" href="./css/style.css">
+     <!-- script -->
+      <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Agenda de Contatos</h1>
+      </header>
+      <form>
+        <label for="nome">Contato:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Nome do Contato"
+          required
+        />
+        <label for="contact">Número:</label>
+        <input type="tel" name="contact" id="contact" required placeholder="xxxx-xxxx"/>
+        <button type="submit">Salvar</button>
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th>Contato</th>
+            <th>Número</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- <tr>
+              <td>Nome</td>
+              <td>Número</td>
+          </tr> -->
+        </tbody>
+      </table>
+</body>
+</html>
